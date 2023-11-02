@@ -1,1 +1,1 @@
-DISTRO_FEATURES_append = " cgroup"
+DISTRO_FEATURES:append = " cgroup"
