@@ -58,7 +58,7 @@ MACHINE ??= "##MACHINE##"
 # Ultimately when creating custom policy, people will likely end up subclassing
 # these defaults.
 #
-DISTRO ?= "zkres"
+DISTRO ?= "s57"
 #
 # Where to place downloads
 #

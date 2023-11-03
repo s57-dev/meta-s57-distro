@@ -8,7 +8,7 @@ BBFILES ?= ""
 CUSTOM_SRC_ROOT := "${@os.path.abspath(os.path.dirname(d.getVar('FILE', True)) + '/../..')}"
 
 BBLAYERS ?= " \
-  ${CUSTOM_SRC_ROOT}/meta-zkres \
+  ${CUSTOM_SRC_ROOT}/meta-s57 \
   ${@'${CUSTOM_SRC_ROOT}/meta-qt5' if os.path.isfile('${CUSTOM_SRC_ROOT}/meta-qt5/conf/layer.conf') else ''} \
   ${CUSTOM_SRC_ROOT}/meta-openembedded/meta-webserver \
   ${CUSTOM_SRC_ROOT}/meta-openembedded/meta-multimedia \

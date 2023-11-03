@@ -123,7 +123,7 @@ _PWD_PREV=$(pwd)
 
 # Warning: Sourcing the oe-init-build-env script changes the current directory.
 
-TEMPLATECONF=${_PWD_PREV}/meta-zkres/conf/templates/training source openembedded/oe-init-build-env ${_BUILDDIR}
+TEMPLATECONF=${_PWD_PREV}/meta-s57/conf/templates/training source openembedded/oe-init-build-env ${_BUILDDIR}
 
 if [ "$_CONFIGS_FOUND" ]; then
     echo -e "\nConfig files already exist in folder ${_BUILDDIR}/conf/, they were not modified."
