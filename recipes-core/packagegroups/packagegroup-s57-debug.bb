@@ -5,6 +5,6 @@ inherit packagegroup features_check
 # REQUIRED_DISTRO_FEATURES = ""
 
 RDEPENDS:${PN} = " \
-    dropbear \
+    strace \
 "
 
