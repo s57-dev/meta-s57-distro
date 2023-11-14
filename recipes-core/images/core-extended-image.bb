@@ -13,7 +13,7 @@ WKS_FILE="bootimg_demo.wks"
 IMAGE_FSTYPES:append = " ext4"
 IMAGE_TYPEDEP_wic = "ext4"
 
-IMAGE_OVERHEAD_FACTOR = "1.5"
+IMAGE_ROOTFS_EXTRA_SPACE = "250000"
 
 do_image_wic[depends] += "syslinux:do_populate_sysroot syslinux-native:do_populate_sysroot mtools-native:do_populate_sysroot dosfstools-native:do_populate_sysroot"
 
